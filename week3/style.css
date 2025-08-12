@@ -1,0 +1,35 @@
+h1 {
+    color: #ea00ff;
+    font-size: 64px;
+    border: 3px solid #00aeff;
+    -webkit-text-stroke-color:#e6e6e6;
+    -webkit-text-stroke-width: 1px;
+}
+.par1{
+    font-family: "Galada", sans-serif;
+    font-size: 24px;
+    color: #00aeff;
+}
+.par2{
+    font-family: "Galada", sans-serif;
+    font-size: 24px;
+    color: #00aeff;
+}
+.par3{
+    font-family: "Galada", sans-serif;
+    font-size: 64px;
+    color: #00ff0d;
+    margin-top: 20px;
+    -webkit-text-stroke-color: #1900ff;
+    -webkit-text-stroke-width: 1px;
+}
+.par4{
+    font-family: "Galada", sans-serif;
+    font-size: 24px;
+    color: #2600ff;
+    margin-top: 20px;
+}
+body{
+    background-image: url("images/umiiyak.jpg");
+    background-size: 700px;
+}
