@@ -1,0 +1,52 @@
+.card{
+    border: 0 solid black; 
+    border-radius: 5px;
+    padding: 20px;
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+h2, p{
+    margin: 0;
+}
+
+.card-header{
+    display: flex;
+}
+
+.card-header{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.all-pages{
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.btn{
+    border:none;
+    background: #EEAECA;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);        cursor: pointer;
+    color:white;
+    padding:10px 10px;
+    border-radius:100px;
+}
+
+.btn:hover{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.card:hover{
+    background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    box-shadow: 0px 0px 20px 10px #888888;
+}
