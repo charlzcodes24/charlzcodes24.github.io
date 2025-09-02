@@ -1,0 +1,52 @@
+.page-header{
+    background-color: rgb(0, 20, 91);
+    display: flex;
+    padding: 10px;
+    color: white;
+    flex-direction: row;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+}
+.buttons{
+    display: flex;
+    gap: 1px;
+    position: relative;
+    left: 330%;
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    border-radius:10%;
+    border: none;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: rgb(0, 87, 6);
+    flex-direction: row;
+    background-size: 20%;
+    padding: 10px;
+}
+.title{
+    row-gap: 20px;
+}
+.card-form{
+    display: flex;
+    background-color: #e6e0e0;
+}
+img{
+    width: 50%;
+}
+.why-me{
+    text-align: center;
+}
+.text2{
+    margin-top: 2px;
+    text-align: center;
+}
+.imahe{
+    display: flex;
+    width: 100%;
+}
