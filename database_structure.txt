@@ -1,0 +1,62 @@
+TO-DO LIST APPLICATION
+Database Structure Documentation
+
+1. Database Name:
+   todo_db
+
+2. Table Name:
+   tasks
+
+3. Table Structure:
+
+   Column Name   | Data Type                    | Description
+   --------------------------------------------------------------
+   id            | INT (Primary Key, Auto Increment)
+                 | Unique ID for each task.
+
+   title         | VARCHAR(255) NOT NULL
+                 | Stores the task title.
+
+   description   | TEXT
+                 | Stores detailed task information.
+
+   status        | ENUM('Pending','Completed')
+                 | Stores the task status.
+                 | Default value is 'Pending'.
+
+   created_at    | TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                 | Stores the date and time the task was created.
+
+4. SQL Code Used to Create the Table:
+
+CREATE DATABASE todo_db;
+USE todo_db;
+
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    status ENUM('Pending','Completed') DEFAULT 'Pending',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+5. CRUD Operations:
+
+CREATE:
+   INSERT INTO tasks (title, description)
+   VALUES ('Sample Task', 'Sample Description');
+
+READ:
+   SELECT * FROM tasks ORDER BY created_at DESC;
+
+UPDATE:
+   UPDATE tasks
+   SET title='New Title', description='New Description', status='Completed'
+   WHERE id=1;
+
+DELETE:
+   DELETE FROM tasks WHERE id=1;
+
+6. Relationship:
+   This project uses a single table (tasks).
+   No foreign keys or relationships are required.
